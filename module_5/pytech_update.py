@@ -1,6 +1,6 @@
 import pymongo
 from pymongo import MongoClient
-client = MongoClient("mongodb+srv://admin:admin@cluster0.jujnbbd.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://admin:admin@cluster0.jujnbbd.mongodb.net/")
 db = client["pytech"]
 collection = db["students"]
 
