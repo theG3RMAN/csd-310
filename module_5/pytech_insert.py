@@ -4,8 +4,18 @@ client = MongoClient("mongodb+srv://admin:admin@cluster0.jujnbbd.mongodb.net/?re
 db = client["pytech"]
 collection = db["students"]
 
+<<<<<<< HEAD
+post1 = {"_id": 1007, "First Name": "Markus", "Last Name": "Dezelak"}
+post2 = {"_id": 1008, "First Name": "Nikola", "Last Name": "Dezelak"}
+post3 = {"_id": 1009, "First Name": "Maggie", "Last Name": "Dezelak"}
+
+collection.insert_many([post1, post2, post3])
+
+=======
 post1 = {"_id": 1007, "First Name": "Markus", "Last Name:": "Dezelak"}
 post2 = {"_id": 1008, "First Name": "Nikolas", "Last Name:": "Dezelak"}
 post3 = {"_id": 1009, "First Name": "Maggie", "Last Name:": "Dezelak"}
 
 collection.insert_many([post1, post2, post3])
+
+>>>>>>> aa975e0d3a3859f74abde976c2eb4dfde5ea98cc
