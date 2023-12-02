@@ -4,6 +4,6 @@ client = MongoClient("mongodb+srv://admin:admin@cluster0.jujnbbd.mongodb.net/?re
 db = client["pytech"]
 collection = db["students"]
 
-value = {"_id": 1013}
+value = {"_id": 1011}
 collection.delete_one(value)
 
